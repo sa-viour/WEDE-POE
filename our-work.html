@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/logo.ico">
+<meta name="theme-color" content="#2c5e1a">
+     <!-- SEO Meta Tags for Part 3 -->
+<meta name="description" content="Paws & Claws Wildlife Rescue - Emergency wildlife rescue and rehabilitation services in South Africa. 24/7 rescue hotline, volunteer opportunities, and wildlife conservation education.">
+<meta name="keywords" content="wildlife rescue, animal rehabilitation, South Africa wildlife, emergency animal rescue, wildlife conservation, volunteer wildlife, animal rescue Cape Town, wildlife volunteer opportunities">
+<meta name="author" content="Paws & Claws Wildlife Rescue">
+<meta name="robots" content="index, follow">
+ <link rel="stylesheet" href="css/styles.css">
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="Paws & Claws Wildlife Rescue - Saving South Africa's Wildlife">
+<meta property="og:description" content="Emergency wildlife rescue and rehabilitation services. 24/7 rescue hotline. Volunteer opportunities available. Professional care for indigenous wildlife.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pawsandclaws.org.za">
+<meta property="og:image" content="https://pawsandclaws.org.za/images/og-image.jpg">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Paws & Claws Wildlife Rescue">
+<meta name="twitter:description" content="Rescuing and rehabilitating South Africa's indigenous wildlife since 2015. Emergency hotline: +27 82 123 4567">
+
+<!-- Structured Data (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NGO",
+  "name": "Paws & Claws Wildlife Rescue",
+  "description": "Non-profit organization dedicated to wildlife rescue and rehabilitation in South Africa",
+  "url": "https://pawsandclaws.org.za",
+  "logo": "https://pawsandclaws.org.za/images/logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Conservation Road",
+    "addressLocality": "Table View",
+    "addressRegion": "Western Cape",
+    "postalCode": "7441",
+    "addressCountry": "ZA"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+27-21-123-4567",
+    "contactType": "customer service",
+    "areaServed": "ZA",
+    "availableLanguage": ["en", "af", "zu"]
+  },
+  "sameAs": [
+    "https://www.facebook.com/pawsandclawsrescue",
+    "https://www.instagram.com/pawsandclawsrescue"
+  ]
+}
+</script>
+
+<!-- Leaflet.js for Interactive Maps -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+</head>
+<body>
+    <header>
+        <a href="index.html">
+          
+<div class="logo">
+    <h1>Paws & Claws</h1>
+    <span>Wildlife Rescue</span>
+</div>
+            
+               <img src="images/pexels-jake-norris-2153835171-33633034.jpg" alt="Paws & Claws Wildlife Rescue picture" width="24%" length="20%">
+             <img src="images/pexels-aleson-padilha-945919991-33336308.jpg" alt="Paws & Claws Wildlife Rescue picture" width="17%" length="20%">
+           
+             <img src="images/pexels-paul-groom-bristol-photog-29283006.jpg" alt="Paws & Claws Wildlife Rescue picture" width="20%" length="20%">
+        
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="our-work.html">Our Work & Get Help</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Our Work & Emergency Guide</h1>
+            <p>Success stories and what to do when you find injured wildlife</p>
+        </section>
+
+        <section>
+            <h2>Recent Success Stories</h2>
+            
+            <div class="success-story">
+                <h3>Aurora the Eagle-Owl</h3>
+                <img src="images/pexels-paul-groom-bristol-photog-29283006.jpg" alt="Aurora the eagle-owl being released" style="width: 100%; max-width: 500px; height: auto; margin: 1rem 0; border-radius: 8px;">
+                <p><strong>Rescue Date:</strong> March 15, 2024</p>
+                <p><strong>Condition:</strong> Broken wing, dehydration</p>
+                <p><strong>Story:</strong> Aurora was found by a hiker in Table Mountain National Park. She had a compound fracture in her left wing and was unable to fly. After surgery and three months of rehabilitation, Aurora made a full recovery and was successfully released back into her territory.</p>
+                <p><strong>Release Date:</strong> June 20, 2024</p>
+            </div>
+
+            <div class="success-story">
+                <h3>Pumba the Porcupine</h3>
+                <p><strong>Rescue Date:</strong> January 10, 2024</p>
+                <p><strong>Condition:</strong> Orphaned baby, malnutrition</p>
+                <p><strong>Story:</strong> Pumba was found alone after his mother was unfortunately hit by a car. He was only two weeks old and required round-the-clock care. After six months of rehabilitation, Pumba was strong enough to be released into a protected area.</p>
+                <p><strong>Release Date:</strong> July 15, 2024</p>
+            </div>
+        </section>
+
+        <section class="emergency-guide">
+            <h2>Found Injured Wildlife? Here's What to Do</h2>
+            
+            <div class="guide-steps">
+                <div class="step">
+                    <h3>Step 1: Assess the Situation</h3>
+                    <p>Keep a safe distance. Do not approach dangerous animals like baboons, snakes, or large carnivores. Observe from a distance to determine if the animal is truly injured or just resting.</p>
+                </div>
+                
+                <div class="step">
+                    <h3>Step 2: Keep the Animal Calm</h3>
+                    <p>Keep noise to a minimum and avoid sudden movements. Keep children and pets away from the area. Do not attempt to feed the animal.</p>
+                </div>
+                
+                <div class="step">
+                    <h3>Step 3: Contact Us Immediately</h3>
+                    <p>Call our emergency hotline: <strong>081 234 5678</strong>. Be ready to provide:</p>
+                    <ul>
+                        <li>Your exact location</li>
+                        <li>Type of animal (if known)</li>
+                        <li>Animal's condition</li>
+                        <li>Any visible injuries</li>
+                    </ul>
+                </div>
+                
+                <div class="step">
+                    <h3>Step 4: Secure the Area (If Safe)</h3>
+                    <p>If it's safe to do so, you can prevent the animal from wandering into traffic by creating a gentle barrier. Never put yourself in danger.</p>
+                </div>
+                
+                <div class="step">
+                    <h3>Step 5: Wait for Our Team</h3>
+                    <p>Our trained rescuers will arrive as quickly as possible. Continue to monitor the animal from a safe distance until help arrives.</p>
+                </div>
+            </div>
+            
+            <div class="important-notes">
+                <h3>Important Notes:</h3>
+                <ul>
+                    <li>Do not attempt to handle the animal yourself</li>
+                    <li>Never give food or water to injured wildlife</li>
+                    <li>Keep the animal in a quiet, dark place if you must contain it temporarily</li>
+                    <li>Always prioritize your own safety</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Paws & Claws Wildlife Rescue. All rights reserved.</p>
+        <p>Registered NPO: 123-456 NPO</p>
+    </footer>
+</body>
+</html>
